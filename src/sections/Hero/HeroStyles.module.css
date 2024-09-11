@@ -11,6 +11,10 @@
         max-width: 200px;
     }
 
+    img {
+        border-radius: 200px;
+    }
+
     span {
         display: flex;
         gap: 25px;
