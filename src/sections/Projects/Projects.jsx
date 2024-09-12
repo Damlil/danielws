@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css'
 import wedding from '../../assets/photos/mom&mika.jpg'
-import freshBurger from '../../assets/fresh-burger.png'
-import hipsster from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
+import mexico from '../../assets/photos/pyramidMexico.jpg'
+import bali from '../../assets/photos/bali.jpg'
+import london from '../../assets/photos/london.jpg'
 
 import ProjectCard from '../../common/ProjectCard';
 
@@ -18,19 +18,19 @@ function Projects() {
             p='Mothers Wedding 2024'
             />
 
-            <ProjectCard src={freshBurger} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
-            h3='Fresh Burger' 
-            p='Fast Food App'
+            <ProjectCard src={mexico} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            h3='Mexico' 
+            p='Best of Mexico 2024'
             />
 
-            <ProjectCard src={hipsster} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
-            h3='Hipsster' 
-            p='Glasses shop'
+            <ProjectCard src={bali} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            h3='Bali' 
+            p='Best of Bali 2023'
             />
 
-            <ProjectCard src={fitLift} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
-            h3='Gym' 
-            p='Crossfit Gym'
+            <ProjectCard src={london} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            h3='England' 
+            p='Best of Lodon 2024'
             />
 
         </div>

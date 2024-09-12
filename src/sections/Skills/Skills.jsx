@@ -8,31 +8,26 @@ function Skills() {
         <h1 className='sectionTitle'>Skills</h1>
 
         <div className={styles.skillList}>
-            <SkillList src={checkMarkIcon} skill='HTML' />
-            <SkillList src={checkMarkIcon} skill='CSS' />
-            <SkillList src={checkMarkIcon} skill='JAVASCRIPT' />
-            <SkillList src={checkMarkIcon} skill='TypeScript' />
-            <SkillList src={checkMarkIcon} skill='Node' />
+            <SkillList src={checkMarkIcon} skill='Lightroom' />
+            <SkillList src={checkMarkIcon} skill='Photoshop' />
+            <SkillList src={checkMarkIcon} skill='DaVinci Resolve' />
+
          </div>
          
          <hr />
 
          <div className={styles.skillList}>
-            <SkillList src={checkMarkIcon} skill='HTML' />
-            <SkillList src={checkMarkIcon} skill='CSS' />
-            <SkillList src={checkMarkIcon} skill='JAVASCRIPT' />
-            <SkillList src={checkMarkIcon} skill='TypeScript' />
-            <SkillList src={checkMarkIcon} skill='Node' />
+            <SkillList src={checkMarkIcon} skill='HTML & CSS' />
+            <SkillList src={checkMarkIcon} skill='Javascript & React' />
+
          </div>
 
          <hr />
 
          <div className={styles.skillList}>
-            <SkillList src={checkMarkIcon} skill='HTML' />
-            <SkillList src={checkMarkIcon} skill='CSS' />
-            <SkillList src={checkMarkIcon} skill='JAVASCRIPT' />
-            <SkillList src={checkMarkIcon} skill='TypeScript' />
-            <SkillList src={checkMarkIcon} skill='Node' />
+            {/* <SkillList src={checkMarkIcon} skill='HTML' />
+            <SkillList src={checkMarkIcon} skill='CSS' /> */}
+
          </div>
 
     </section>
