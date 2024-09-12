@@ -13,22 +13,22 @@ function Projects() {
         
         <div className={styles.projectsContainer}>
 
-            <ProjectCard src={wedding} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            <ProjectCard src={wedding} link='' 
             h3='Wedding' 
             p='Mothers Wedding 2024'
             />
 
-            <ProjectCard src={mexico} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            <ProjectCard src={mexico} link='' 
             h3='Mexico' 
             p='Best of Mexico 2024'
             />
 
-            <ProjectCard src={bali} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            <ProjectCard src={bali} link='' 
             h3='Bali' 
             p='Best of Bali 2023'
             />
 
-            <ProjectCard src={london} link='https://youtu.be/jk_LnLu2FUE?si=rlcp4o2ufLJeYTQ5' 
+            <ProjectCard src={london} link='' 
             h3='England' 
             p='Best of Lodon 2024'
             />
