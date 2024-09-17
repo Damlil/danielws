@@ -30,13 +30,12 @@ function Hero() {
 
   }}>
 
-        <div className={styles.colorModeContainer} >
-
-            <img className={styles.damlil} src={heroImg} 
-            style={{
+        <div className={styles.colorModeContainer}        style={{
                         max_width: '200px',
                         border_radius: '200px'    
-            }}
+            }} >
+
+            <img className={styles.damlil} src={heroImg} 
             alt="Profile picture of Daniel WS" />
            
             <img className={styles.colorMode}
@@ -62,9 +61,7 @@ function Hero() {
                 gap: '25px',
                 justify_content: 'center'
             }} >
-                <a href="https://www.instagram.com/dannemanno/" target="_blank" style={{
-                    width: '30px'
-                }}>
+                <a href="https://www.instagram.com/dannemanno/" target="_blank">
                 <img src={instagramIcon} alt="Instagram icon" />
                 </a>
                 
