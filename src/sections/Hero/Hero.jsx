@@ -54,9 +54,9 @@ function Hero() {
             <h2>Freelance Media</h2>
 
             <span className='spanstyle'>
-                
+
                 <a className='spanA' href="https://www.instagram.com/dannemanno/" target="_blank">
-                <img className='spanIMG' src={instagramIcon} alt="Instagram icon" />
+                <img id='fixpls' className='spanIMG' src={instagramIcon} alt="Instagram icon" />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">

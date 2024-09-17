@@ -31,13 +31,14 @@
         gap: 25px;
         justify-content: center;
 
-        img {
-            width: 30px;
-        }
 
     }
 
-    a.spanIMG {
+   #fixpls {
+    width: 30px;
+   }
+
+    .spanIMG {
         width: 30px;
     }
 
