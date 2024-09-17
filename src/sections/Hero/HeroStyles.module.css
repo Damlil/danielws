@@ -30,8 +30,15 @@
         display: flex;
         gap: 25px;
         justify-content: center;
-  
 
+        img {
+            width: 30px;
+        }
+
+    }
+
+    a.spanIMG {
+        width: 30px;
     }
 
     .spanA {
