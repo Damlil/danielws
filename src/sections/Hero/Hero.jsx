@@ -58,13 +58,15 @@ function Hero() {
                 <a href="https://www.instagram.com/dannemanno/" target="_blank">
 
                 <img src={instagramIcon} alt="Instagram icon" style={{
-                    width: '30px'
+                    width: '30px',
+                    marginRight: '1rem'
                 }}  />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
                 <img src={youtubeIcon} alt="YouTube Icon" style={{
                     width: '30px'
+
                 }}  />
                 </a>
 
