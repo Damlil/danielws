@@ -56,6 +56,10 @@
   
   .colorModeContainer {
     position: relative;
+
+    .hero {
+        border-radius: 200px;
+    }
   }
   
   .colorMode {
