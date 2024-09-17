@@ -2,7 +2,7 @@ import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 import Landing from './pages/landing';
-// import Gallery from './pages/wedding';
+import Gallery from './pages/wedding';
 import Mexico from './pages/mexico';
 import Bali from './pages/indonesia'
 import London from './pages/england'
@@ -19,12 +19,12 @@ const router = createBrowserRouter( [
     errorElement: <Error />
   },
 
-  // {
-  //   path: '/wedding',
-  //   element: <Gallery />,
-  //   errorElement: <Error />
-  // }
-  // ,
+  {
+    path: '/wedding',
+    element: <Gallery />,
+    errorElement: <Error />
+  }
+  ,
 
   {
     path: '/mexico',
@@ -59,11 +59,7 @@ function App() {
 
   <RouterProvider router={ router } />
 
-   {/* <Hero />
-   <Projects />
-   <Skills />
-   <Contact />
-   <Footer /> */}
+
 
    </>
   )
