@@ -80,10 +80,3 @@ function Hero() {
 export default Hero;
 
 
-
-
-// style={{
-//     display: 'flex',
-//     gap: '25px',
-//     justify_content: 'center'
-// }}
