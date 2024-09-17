@@ -7,17 +7,20 @@
     height: 100dvh;
     min-height: 500px;
 
- 
-    img {
-        border-radius: 200px;
-    }
-
-
-
     
     .damlil {
         max-width: 200px;
+        
+        
+        
+        img {
+            border-radius: 200px;
+            
+        }
     }
+
+
+
     span {
         display: flex !important;
         gap: 25px;
