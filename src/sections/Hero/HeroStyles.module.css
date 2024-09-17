@@ -25,6 +25,21 @@
         }
       }
     }
+
+    .spanstyle {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+
+    }
+
+    .spanA {
+        margin: 0;
+    }
+
+    .spanIMG {
+        width: 30px;
+    }
   
     a {
       width: fit-content;

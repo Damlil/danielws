@@ -53,13 +53,13 @@ function Hero() {
 
             <h2>Freelance Media</h2>
 
-            <span style={{
+            <span className='spanstyle' style={{
                 display: 'flex',
                 gap: '25px',
                 justify_content: 'center'
             }} >
-                <a href="https://www.instagram.com/dannemanno/" target="_blank">
-                <img src={instagramIcon} alt="Instagram icon" />
+                <a className='spanA' href="https://www.instagram.com/dannemanno/" target="_blank">
+                <img className='spanIMG' src={instagramIcon} alt="Instagram icon" />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
