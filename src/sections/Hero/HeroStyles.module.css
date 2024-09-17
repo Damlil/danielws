@@ -7,7 +7,7 @@
     height: 100dvh;
     min-height: 500px;
 
-    .hero {
+    .damlil {
         max-width: 200px;
     }
 
@@ -87,7 +87,7 @@
         align-items: center;
         justify-content: space-evenly;
 
-        .hero {
+        .damlil {
             max-width: 350px;
             width: 350px;
         }
@@ -96,7 +96,7 @@
 
 @media (width >= 1400) {
     .container {
-        .hero {
+        .damlil {
             max-width: 400px;
             width: 400px;
         }
