@@ -53,11 +53,7 @@ function Hero() {
 
             <h2>Freelance Media</h2>
 
-            <span className='spanstyle' style={{
-                display: 'flex',
-                gap: '25px',
-                justify_content: 'center'
-            }} >
+            <span className='spanstyle'>
                 <a className='spanA' href="https://www.instagram.com/dannemanno/" target="_blank">
                 <img className='spanIMG' src={instagramIcon} alt="Instagram icon" />
                 </a>
@@ -81,3 +77,12 @@ function Hero() {
 }
 
 export default Hero;
+
+
+
+
+// style={{
+//     display: 'flex',
+//     gap: '25px',
+//     justify_content: 'center'
+// }}
