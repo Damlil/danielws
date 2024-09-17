@@ -32,7 +32,7 @@ function Hero() {
 
         <div  className={styles.colorModeContainer}  >
 
-            <img id='hejsan' className={styles.hero} src={heroImg} 
+            <img  className={styles.hero} src={heroImg} 
               alt="Profile picture of Daniel WS" />
            
             <img className={styles.colorMode}
@@ -55,10 +55,11 @@ function Hero() {
 
             <span className='spanstyle'>
 
-                <a className='spanA' href="https://www.instagram.com/dannemanno/" target="_blank">
-                <img style={{
+                <a href="https://www.instagram.com/dannemanno/" target="_blank">
+
+                <img src={instagramIcon} alt="Instagram icon" style={{
                     width: '30px'
-                }} src={instagramIcon} alt="Instagram icon" />
+                }}  />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
