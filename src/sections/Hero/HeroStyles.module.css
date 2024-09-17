@@ -19,7 +19,7 @@
         max-width: 200px;
     }
     span {
-        display: flex;
+        display: flex !important;
         gap: 25px;
         justify-content: center;
 

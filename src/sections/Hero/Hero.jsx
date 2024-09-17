@@ -20,7 +20,7 @@ function Hero() {
   return ( 
   <section id='damlil' className={styles.container} style={{ display: 'flex' }}>
 
-        <div className={styles.colorModeContainer}>
+        <div className={styles.colorModeContainer} style={{ display: 'flex'}}>
 
             <img className={styles.damlil} src={heroImg} 
             alt="Profile picture of Daniel WS" />
