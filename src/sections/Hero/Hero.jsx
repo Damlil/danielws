@@ -15,7 +15,7 @@ function Hero() {
     const themeIcon = theme === 'light' ? sun : moon;
     const instagramIcon = theme === 'light' ? instagramLight : instagramLight;
     const youtubeIcon = theme === 'light' ? youtubeDark : youtubeLight;
-    // const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+
  
   return ( 
   <section id='hero' className={styles.container} style={{
@@ -33,6 +33,9 @@ function Hero() {
         <div className={styles.colorModeContainer}  >
 
             <img className={styles.hero} src={heroImg} 
+            style={{ 
+                border_radius: '200px' }}
+                
             alt="Profile picture of Daniel WS" />
            
             <img className={styles.colorMode}
