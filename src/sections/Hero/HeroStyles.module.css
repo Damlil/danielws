@@ -1,5 +1,4 @@
 .container {
-    display: flex !important;
     flex-direction: column;
     justify-content: center;
     gap: 20px;

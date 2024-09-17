@@ -20,7 +20,7 @@ function Hero() {
   return ( 
   <section id='damlil' className={styles.container} style={{
 
-    display: 'flex !important',
+    display: 'flex',
     flex_direction: 'columnm',
     justify_content: 'center',
     gap: '20px',
