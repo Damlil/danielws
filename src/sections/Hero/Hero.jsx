@@ -30,12 +30,11 @@ function Hero() {
 
   }}>
 
-        <div className={styles.colorModeContainer}        style={{
-                        max_width: '200px',
-                        border_radius: '200px'    
-            }} >
+        <div className={styles.colorModeContainer} >
 
-            <img className={styles.damlil} src={heroImg} 
+            <img className={styles.damlil} src={heroImg} style= {{
+                border_radius: '200px'
+            }}
             alt="Profile picture of Daniel WS" />
            
             <img className={styles.colorMode}
