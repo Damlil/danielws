@@ -18,7 +18,17 @@ function Hero() {
     // const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
  
   return ( 
-  <section id='damlil' className={styles.container}>
+  <section id='damlil' className={styles.container} style={{
+
+    display: 'flex !important',
+    flex_direction: 'columnm',
+    justify_content: 'center',
+    gap: '20px',
+    text_align: 'center',
+    height: '100dvh',
+    min_height: '500px'
+
+  }}>
 
         <div className={styles.colorModeContainer} >
 
