@@ -63,7 +63,9 @@ function Hero() {
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
-                <img src={youtubeIcon} alt="YouTube Icon" />
+                <img src={youtubeIcon} alt="YouTube Icon" style={{
+                    width: '30px'
+                }}  />
                 </a>
 
         
