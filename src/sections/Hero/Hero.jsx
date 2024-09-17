@@ -18,17 +18,18 @@ function Hero() {
 
  
   return ( 
-  <section id='hero' className={styles.container} style={{
-
-    display: 'flex',
-    flex_direction: 'columnm',
-    justify_content: 'center',
-    gap: '20px',
-    text_align: 'center',
-    height: '100dvh',
-    min_height: '500px'
-
-  }}>
+  <section id='hero' className={styles.container} 
+  
+//   style={{
+//     display: 'flex',
+//     flex_direction: 'columnm',
+//     justify_content: 'center',
+//     gap: '20px',
+//     text_align: 'center',
+//     height: '100dvh',
+//     min_height: '500px'
+// }}
+  >
 
         <div  className={styles.colorModeContainer}  >
 
