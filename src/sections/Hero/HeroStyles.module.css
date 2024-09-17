@@ -27,15 +27,10 @@
     }
 
 
-
-  
     a {
       width: fit-content;
       align-self: center;
 
-      img {
-        width: 30px;
-      }
     }
   
     button {

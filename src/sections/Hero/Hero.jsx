@@ -56,7 +56,9 @@ function Hero() {
             <span className='spanstyle'>
 
                 <a className='spanA' href="https://www.instagram.com/dannemanno/" target="_blank">
-                <img id='fixpls' className='spanIMG' src={instagramIcon} alt="Instagram icon" />
+                <img style={{
+                    width: '30px'
+                }} src={instagramIcon} alt="Instagram icon" />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
