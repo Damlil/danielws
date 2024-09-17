@@ -5,9 +5,6 @@ import moon from '../../assets/moon.svg'
 import youtubeDark from '../../assets/youtube-dark.svg';
 import youtubeLight from '../../assets/youtube-light.svg';
 import instagramLight from '../../assets/instagram.svg';
-import instagramDark from '../../assets/instagramDark.svg';
-import linkedinDark from '../../assets/linkedin-dark.svg';
-import linkedinLight from '../../assets/linkedin-light.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext'; 
 
@@ -55,9 +52,7 @@ function Hero() {
                 <img src={youtubeIcon} alt="YouTube Icon" />
                 </a>
 
-                {/* <a href="https://youtube.com/" target="_blank">
-                <img src={linkedinIcon} alt="Youtube icon" />
-                </a> */}
+        
             </span>
 
             <p className={styles.description}>With a passion for photography & videos!</p>
