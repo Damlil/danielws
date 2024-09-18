@@ -54,7 +54,7 @@ function Hero() {
 
             <h2>Freelance Media</h2>
 
-            <span className='spanstyle'>
+            <span>
 
                 <a href="https://www.instagram.com/dannemanno/" target="_blank">
 
