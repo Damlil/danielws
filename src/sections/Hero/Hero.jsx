@@ -20,15 +20,15 @@ function Hero() {
   return ( 
   <section id='hero' className={styles.container} 
   
-  style={{
-    display: 'flex',
-    flex_direction: 'columnm',
-    justify_content: 'center',
-    gap: '20px',
-    text_align: 'center',
-    height: '100dvh',
-    min_height: '500px'
-}}
+//   style={{
+//     display: 'flex',
+//     flex_direction: 'columnm',
+//     justify_content: 'center',
+//     gap: '20px',
+//     text_align: 'center',
+//     height: '100dvh',
+//     min_height: '500px'
+// }}
   >
 
         <div  className={styles.colorModeContainer}  >
@@ -58,17 +58,26 @@ function Hero() {
 
                 <a href="https://www.instagram.com/dannemanno/" target="_blank">
 
-                <img src={instagramIcon} alt="Instagram icon" style={{
-                    width: '30px',
-                    marginRight: '1rem'
-                }}  />
+                <img src={instagramIcon} alt="Instagram icon" 
+                
+                // style={{
+                //     width: '30px',
+                //     marginRight: '1rem'
+                // }}
+                
+                />
                 </a>
                 
                 <a href="https://www.youtube.com/@Dannemanno" target="_blank">
-                <img src={youtubeIcon} alt="YouTube Icon" style={{
-                    width: '30px'
+                <img src={youtubeIcon} alt="YouTube Icon" 
+                
+                
+                // style={{
+                //     width: '30px'
 
-                }}  />
+                // }} 
+                
+                />
                 </a>
 
         
