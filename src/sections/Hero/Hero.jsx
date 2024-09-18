@@ -85,7 +85,9 @@ function Hero() {
 
             <p className={styles.description}>With a passion for photography & videos!</p>
 
-            <a href={CV} download>
+            <a 
+            // href={CV}
+             download>
                 <button className='hover'>Resume</button>
             </a>
          </div>
