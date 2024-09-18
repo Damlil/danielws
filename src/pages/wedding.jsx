@@ -1,10 +1,10 @@
 
 import { ImageSlider } from '../sections/ImageSlider/ImageSlider'
 
-import pic1 from '../assets/photos/bali.jpg'
-import pic2 from '../assets/photos/london.jpg'
-import pic3 from '../assets/photos/mom&mika.jpg'
-import pic4 from '../assets/photos/wedding.jpg'
+import pic1 from '../assets/photos/wedding/wed1.jpg'
+import pic2 from '../assets/photos/wedding/wed2.jpg'
+import pic3 from '../assets/photos/wedding/wed3.jpg'
+import pic4 from '../assets/photos/wedding/wed4.jpg'
 
 const IMAGES = [pic1, pic2, pic3, pic4]
 

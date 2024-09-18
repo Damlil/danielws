@@ -18,7 +18,6 @@ function ProjectCard({ src, link, h3, p, b }) {
     
             <h3>{h3}</h3>
             <p>{p}</p>
-            <button>{b}</button>
 
 </a>
   )
