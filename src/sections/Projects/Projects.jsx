@@ -19,7 +19,7 @@ function Projects() {
             <ProjectCard src={wedding} 
             h3='Wedding' 
             p='Mothers Wedding 2024'
-             link='wedding'  
+            link='wedding'  
             
             />
 

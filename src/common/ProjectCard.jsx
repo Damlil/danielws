@@ -12,7 +12,9 @@ function ProjectCard({ src, link, h3, p, b }) {
 
 
   return (
-            <a href={link} target='_blank'>
+
+    
+            <a href={link} target=''>
             <img className='hover' src={src} alt={`${h3} logo`} />
 
     

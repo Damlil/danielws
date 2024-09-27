@@ -20,15 +20,7 @@ function Hero() {
   return ( 
   <section id='hero' className={styles.container} 
   
-//   style={{
-//     display: 'flex',
-//     flex_direction: 'columnm',
-//     justify_content: 'center',
-//     gap: '20px',
-//     text_align: 'center',
-//     height: '100dvh',
-//     min_height: '500px'
-// }}
+
   >
 
         <div  className={styles.colorModeContainer}  >
@@ -60,10 +52,7 @@ function Hero() {
 
                 <img src={instagramIcon} alt="Instagram icon" 
                 
-                // style={{
-                //     width: '30px',
-                //     marginRight: '1rem'
-                // }}
+              
                 
                 />
                 </a>
@@ -72,10 +61,7 @@ function Hero() {
                 <img src={youtubeIcon} alt="YouTube Icon" 
                 
                 
-                // style={{
-                //     width: '30px'
-
-                // }} 
+        
                 
                 />
                 </a>
@@ -86,7 +72,7 @@ function Hero() {
             <p className={styles.description}>With a passion for photography & videos!</p>
 
             <a 
-            // href={CV}
+            href={CV}
              download>
                 <button className='hover'>Resume</button>
             </a>

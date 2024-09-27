@@ -4,6 +4,29 @@
     box-sizing: border-box;
 } */
 
+.backBtn {
+ 
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        width: 70px;
+        height: 25px;
+        font-size: 12px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    
+}
+.backBtn:hover {
+    transform: scale(1.05);
+}
+.backBtn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
 .img-slider-img {
     object-fit:contain;
     width: 100%;

@@ -27,6 +27,10 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
         })
     }
 
+    function goBack() {
+        history.back()
+    }
+
 
     return  <div style={{
         width: '100%',
@@ -49,6 +53,7 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
 
         <button onClick={showPrevImage} className="img-slider-btn" style= {{ left: 0}}><ArrowBigLeft/></button>
         <button onClick={showNextImage} className="img-slider-btn" style= {{ right: 0}}><ArrowBigRight/></button>
+     
         
 
         <div style= {{
@@ -57,13 +62,27 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
             left: '50%',
             translate: '-50%',
             display: 'flex',
-            gap: '.25rem'
-
+            gap: '.25rem',
         }}>
+
+     
             {imageUrls.map((_, index) => (
                 <button key={index} className="img-slider-dot-btn" onClick={() => setImageIndex(index)}>
                     {index === imageIndex ? <CircleDot /> : <Circle />}</button>
             ))}
+        </div>
+
+         <div style= {{
+            position: 'absolute',
+            bottom: '.5rem',
+            left: '50%',
+            translate: '-50%',
+            display: 'flex',
+            gap: '.25rem',
+            marginBottom: '1.2rem'
+        }}>
+
+        <button className="backBtn" onClick={goBack}>Return</button>
         </div>
 
 
