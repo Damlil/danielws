@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css'
 import wedding from '../../assets/photos/wedding/wed1.jpg'
-import mexico from '../../assets/photos/pyramidMexico.jpg'
-import bali from '../../assets/photos/bali.jpg'
-import london from '../../assets/photos/london.jpg'
+import mexico from '../../assets/photos/mexico/mexico1.jpg'
+import bali from '../../assets/photos/indonesia/bali1.jpg'
+import london from '../../assets/photos/london/london1.jpg'
 
 
 import ProjectCard from '../../common/ProjectCard';
