@@ -55,15 +55,12 @@ import pic51 from '../assets/photos/wedding/wed51.jpg'
 import pic52 from '../assets/photos/wedding/wed52.jpg'
 import pic53 from '../assets/photos/wedding/wed53.jpg'
 import pic54 from '../assets/photos/wedding/wed54.jpg'
-import pic55 from '../assets/photos/wedding/wed55.jpg'
-import pic56 from '../assets/photos/wedding/wed56.jpg'
-import pic57 from '../assets/photos/wedding/wed57.jpg'
-import pic58 from '../assets/photos/wedding/wed58.jpg'
+
 
 
 const IMAGES = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11,pic12,pic13,pic14,
   pic15,pic16,pic17,pic18,pic19,pic20,pic21,pic22,pic23,pic24,pic25,pic26,pic27,pic28,pic29,pic30,pic31,pic32,pic33,pic34,pic35,pic36,pic37,pic38,pic39,pic40,pic41,
-  pic42,pic43,pic44,pic45,pic46,pic47,pic48,pic49,pic50,pic51,pic52,pic53,pic54,pic55,pic56,pic57,pic58,
+  pic42,pic43,pic44,pic45,pic46,pic47,pic48,pic49,pic50,pic51,pic52,pic53,pic54
  ]
 
 
