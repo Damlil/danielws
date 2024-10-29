@@ -18,10 +18,11 @@ function Hero() {
 
  
   return ( 
-  <section id='hero' className={styles.container} 
-  
 
-  >
+    
+   
+        <section id='hero' className={styles.container}>
+
 
         <div  className={styles.colorModeContainer}  >
 
@@ -78,7 +79,18 @@ function Hero() {
             </a>
          </div>
 
+
+
+   
+
+
     </section>
+
+
+
+    
+
+
     );
 }
 

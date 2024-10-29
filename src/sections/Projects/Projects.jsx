@@ -3,7 +3,7 @@ import wedding from '../../assets/photos/wedding/wed1.jpg'
 import mexico from '../../assets/photos/mexico/mexico1.jpg'
 import bali from '../../assets/photos/indonesia/bali1.jpg'
 import london from '../../assets/photos/london/london1.jpg'
-
+import { ArrowBigDown} from 'lucide-react'
 
 import ProjectCard from '../../common/ProjectCard';
 
@@ -12,7 +12,10 @@ import ProjectCard from '../../common/ProjectCard';
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
+
+          <h5><ArrowBigDown size={60}/></h5>
         <h1 className='sectionTitle'>Albums</h1>
+      
         
         <div className={styles.projectsContainer}>
 
