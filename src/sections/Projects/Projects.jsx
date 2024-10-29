@@ -20,27 +20,27 @@ function Projects() {
         <div className={styles.projectsContainer}>
 
             <ProjectCard src={wedding} 
-            h3='Wedding' 
-            p='Mothers Wedding 2024'
+            h3='Wedding 24' 
+            // p='Mothers Wedding 2024'
             link='wedding'  
             
             />
 
             <ProjectCard src={mexico} 
-            h3='Mexico' 
-            p='Best of Mexico 2024' 
+            h3='Mexico 24' 
+            // p='Best of Mexico 2024' 
              link='mexico'
             />
 
             <ProjectCard src={bali} 
-            h3='Bali' 
-            p='Best of Bali 2023' 
+            h3='Bali 23' 
+            // p='Best of Bali 2023' 
              link='bali'
             />
 
             <ProjectCard src={london} 
-            h3='England' 
-            p='Best of Lodon 2024'
+            h3='England 24' 
+            // p='Best of Lodon 2024'
             link ='london'
             />
 
