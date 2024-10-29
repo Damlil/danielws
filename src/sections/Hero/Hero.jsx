@@ -69,7 +69,7 @@ function Hero() {
         
             </span>
 
-            <p className={styles.description}>With a passion for photography & videos!</p>
+            <p className={styles.description}>Trying to capture<br></br> the best moments of life</p>
 
             <a 
             href={CV}
