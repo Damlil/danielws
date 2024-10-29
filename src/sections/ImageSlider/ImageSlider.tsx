@@ -79,10 +79,10 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
             translate: '-50%',
             display: 'flex',
             gap: '.25rem',
-            marginBottom: '1.2rem'
+            marginBottom: '1.5rem'
         }}>
 
-        <button className="backBtn" onClick={goBack}>Return</button>
+        <button className="backBtn" onClick={goBack}>BACK</button>
         </div>
 
 

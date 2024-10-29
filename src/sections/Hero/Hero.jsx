@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/heroDan.png'
+import heroImg from '../../assets/profileDan.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg' 
 import youtubeDark from '../../assets/youtube-dark.svg';
