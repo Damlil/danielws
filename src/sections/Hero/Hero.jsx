@@ -5,7 +5,7 @@ import moon from '../../assets/moon.svg'
 import youtubeDark from '../../assets/youtube-dark.svg';
 import youtubeLight from '../../assets/youtube-light.svg';
 import instagramLight from '../../assets/instagram.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/cv.jpg';
 import { useTheme } from '../../common/ThemeContext'; 
 
 
@@ -45,7 +45,7 @@ function Hero() {
                 Pettersson
             </h1>
 
-            <h2>Freelance Media</h2>
+            <h2>Freelance Media and more</h2>
 
             <span>
 
@@ -78,6 +78,7 @@ function Hero() {
                 <button className='hover'>Resume</button>
             </a>
          </div>
+
 
 
 

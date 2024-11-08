@@ -6,6 +6,7 @@ import Gallery from './pages/wedding';
 import Mexico from './pages/mexico';
 import Bali from './pages/indonesia'
 import London from './pages/england'
+import Korcula from './pages/croatia';
 
 
 
@@ -43,6 +44,12 @@ const router = createBrowserRouter( [
   {
     path: '/london',
     element: <London />,
+    errorElement: <Error />
+  }
+  ,
+  {
+    path: '/korcula',
+    element: <Korcula />,
     errorElement: <Error />
   }
 
