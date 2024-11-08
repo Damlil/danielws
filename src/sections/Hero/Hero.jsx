@@ -45,7 +45,7 @@ function Hero() {
                 Pettersson
             </h1>
 
-            <h2>Freelance Media and ok</h2>
+            <h2>Freelance Media</h2>
 
             <span>
 
