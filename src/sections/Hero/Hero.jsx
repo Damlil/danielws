@@ -5,7 +5,7 @@ import moon from '../../assets/moon.svg'
 import youtubeDark from '../../assets/youtube-dark.svg';
 import youtubeLight from '../../assets/youtube-light.svg';
 import instagramLight from '../../assets/instagram.svg';
-import CV from '../../assets/cv.jpg';
+import CV from '../../assets/dancv.pdf';
 import { useTheme } from '../../common/ThemeContext'; 
 
 
@@ -75,7 +75,7 @@ function Hero() {
             <a 
             href={CV}
              download>
-                <button className='hover'>Resume</button>
+                <button className='hover'>Click to download CV</button>
             </a>
          </div>
 
