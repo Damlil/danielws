@@ -72,11 +72,11 @@ function Hero() {
 
             <p className={styles.description}>Trying to capture<br></br> the best moments of life</p>
 
-            <a 
+            {/* <a 
             href={CV}
              download>
                 <button className='hover'>Click to download CV</button>
-            </a>
+            </a> */}
          </div>
 
 
