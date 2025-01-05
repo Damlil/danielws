@@ -21,6 +21,9 @@ function Projects() {
         
         <div className={styles.projectsContainer}>
 
+       
+        
+
             <ProjectCard src={coffeeBar} 
             h4='Coffee & food' 
             h5='Commercial'
