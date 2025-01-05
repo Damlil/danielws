@@ -69,8 +69,8 @@ function Hero() {
 
         
             </span>
-
-            <p className={styles.description}>some text here<br></br>and maybe here</p>
+{/* 
+            <p className={styles.description}>some text here<br></br>and maybe here</p> */}
 
            
          </div>
