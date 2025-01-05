@@ -6,7 +6,7 @@ import React from 'react'
 
 
 
-function ProjectCard({ src, link, h3, p, b }) {
+function ProjectCard({ src, link, h4,h5, p, b }) {
 
 
 
@@ -15,10 +15,12 @@ function ProjectCard({ src, link, h3, p, b }) {
 
     
             <a href={link} target=''>
-            <img className='hover' src={src} alt={`${h3} logo`} />
+            <img className='hover' src={src} alt={`${h4} logo`} />
 
     
-            <h3>{h3}</h3>
+            <h4>{h4}</h4>
+            <h5>{h5}</h5>
+            
             <p>{p}</p>
 
 </a>

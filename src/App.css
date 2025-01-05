@@ -37,6 +37,18 @@
     margin: 0;
     padding: 0;
   }
+  
+  h4 {
+    
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 0;
+
+  }
+  h5 {
+   font-size: 15;
+  }
 
   h2,h3, p {
     font-family: 'Roboto Mono', monospace;

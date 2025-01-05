@@ -22,31 +22,32 @@ function Projects() {
         <div className={styles.projectsContainer}>
 
             <ProjectCard src={coffeeBar} 
-            h3='Coffee & Bar' 
+            h4='Coffee & food' 
+            h5='Commercial'
             link='coffeeBar'  
             
             />
 
             <ProjectCard src={mexico} 
-            h3='Mexico 24' 
+            h4='Mexico 24' 
             // p='Best of Mexico 2024' 
              link='mexico'
             />
 
             <ProjectCard src={bali} 
-            h3='Bali 23' 
+            h4='Bali 23' 
             // p='Best of Bali 2023' 
              link='bali'
             />
 
             <ProjectCard src={london} 
-            h3='England 24' 
+            h4='England 24' 
             // p='Best of Lodon 2024'
             link ='london'
             />
 
             <ProjectCard src={korcula} 
-            h3='Croatia 24' 
+            h4='Croatia 24' 
             // p='Best of Lodon 2024'
             link ='korcula'
             />
