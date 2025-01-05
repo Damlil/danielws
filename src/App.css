@@ -66,6 +66,7 @@
 
   .hover {
     cursor: pointer;
+    width: 150px;
   }
 
   @media (width >= 800px) {
@@ -83,7 +84,8 @@
     }
 
     .sectionTitle {
-      margin-bottom: 60px;
+      margin-top: 25px;
+      margin-bottom: 30px;
     }
   }
 

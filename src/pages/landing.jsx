@@ -17,7 +17,7 @@ function Landing() {
  <div>
     <Hero/>
     <Projects/>
-    <Skills/>
+    {/* <Skills/> */}
     <Contact/>
     <Footer/>
  </div>

@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css'
-import wedding from '../../assets/photos/wedding/wed1.jpg'
+import coffeeBar from '../../assets/photos/coffeeBar/coffeeBar1.jpg'
 import mexico from '../../assets/photos/mexico/mexico1.jpg'
 import bali from '../../assets/photos/indonesia/bali1.jpg'
 import london from '../../assets/photos/london/london1.jpg'
@@ -15,16 +15,15 @@ function Projects() {
   return (
     <section id='projects' className={styles.container}>
 
-          <h5><ArrowBigDown size={60}/></h5>
+          {/* <h5><ArrowBigDown size={60}/></h5> */}
         <h1 className='sectionTitle'>Albums</h1>
       
         
         <div className={styles.projectsContainer}>
 
-            <ProjectCard src={wedding} 
-            h3='Wedding 24' 
-            // p='Mothers Wedding 2024'
-            link='wedding'  
+            <ProjectCard src={coffeeBar} 
+            h3='Coffee & Bar' 
+            link='coffeeBar'  
             
             />
 

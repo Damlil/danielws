@@ -45,7 +45,7 @@ function Hero() {
                 Pettersson
             </h1>
 
-            <h2>Freelance Media</h2>
+            <h2>The portfolio</h2>
 
             <span>
 
@@ -70,13 +70,9 @@ function Hero() {
         
             </span>
 
-            <p className={styles.description}>Trying to capture<br></br> the best moments of life</p>
+            <p className={styles.description}>some text here<br></br>and maybe here</p>
 
-            {/* <a 
-            href={CV}
-             download>
-                <button className='hover'>Click to download CV</button>
-            </a> */}
+           
          </div>
 
 
