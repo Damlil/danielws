@@ -39,11 +39,27 @@
 
         /* flex-direction: column */
         gap: 7px;
-        
-
+    
     }
     
 }
+
+@media(max-width: 768px) {
+    .container{
+        width: 98%;
+        padding: 0;
+        
+    }
+    
+}
+@media(max-width: 768px) {
+    .column{
+      gap: 7px;
+        
+    }
+    
+}
+
 
 .modal {
     position: fixed;
