@@ -1,5 +1,6 @@
 
 import { ImageSlider } from '../sections/ImageSlider/ImageSlider'
+import RespGallery from '../sections/RespGallery/RespGallery'
 
 import pic1 from '../assets/photos/coffeeBar/coffeeBar1.jpg'
 import pic2 from '../assets/photos/coffeeBar/coffeeBar2.jpg'
@@ -19,16 +20,21 @@ const IMAGES = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9]
 
 export default function Gallery() {
   return (
-    <div
-    style={{
-      maxWidth: '1200px',
-      width: '100%',
-      margin: '0 auto',
 
-    }}>
+    <RespGallery />
 
-    <ImageSlider imageUrls={IMAGES} />
+    // <div
+    // style={{
+    //   maxWidth: '1200px',
+    //   width: '100%',
+    //   margin: '0 auto',
 
-    </div>
+    // }}>
+
+     
+      
+    // {/* <ImageSlider imageUrls={IMAGES} /> */}
+
+    // </div>
   )
 }
