@@ -6,7 +6,7 @@ import React from 'react'
 
 
 
-function ProjectCard({ src, link, h4,h5, p, b }) {
+function ProjectCard({ src, link, h4,h5, h6, p, b }) {
 
 
 
@@ -20,6 +20,7 @@ function ProjectCard({ src, link, h4,h5, p, b }) {
     
             <h4>{h4}</h4>
             <h5>{h5}</h5>
+            <h6>{h6}</h6>
             
             <p>{p}</p>
 

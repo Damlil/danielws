@@ -4,8 +4,8 @@
     text-align: center;
 
     img {
-        max-width: 250px;
-        height: 260px;
+        width: 200px;
+        height: 280px;
         align-self: center;
         background-color: var(--project-card-bg);
         border-radius: 20px;
@@ -40,6 +40,14 @@
 h5 {
     color: orange;
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+h6 {
+    color: rgb(0, 128, 77);
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 .projectsContainer {

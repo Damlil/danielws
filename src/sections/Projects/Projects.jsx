@@ -33,24 +33,28 @@ function Projects() {
 
             <ProjectCard src={mexico} 
             h4='Mexico 24' 
+             h6='Personal'
             // p='Best of Mexico 2024' 
              link='mexico'
             />
 
             <ProjectCard src={bali} 
             h4='Bali 23' 
+            h6='Personal'
             // p='Best of Bali 2023' 
              link='bali'
             />
 
             <ProjectCard src={london} 
             h4='England 24' 
+            h6='Personal'
             // p='Best of Lodon 2024'
             link ='london'
             />
 
             <ProjectCard src={korcula} 
             h4='Croatia 24' 
+            h6='Personal'
             // p='Best of Lodon 2024'
             link ='korcula'
             />
