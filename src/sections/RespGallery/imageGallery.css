@@ -26,6 +26,12 @@
     flex-direction: column;
     gap: 20px;
 }
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -1rem;
+}
 
 .photo img {
     width: 100%;
@@ -54,8 +60,13 @@
 }
 @media(max-width: 768px) {
     .column{
-      gap: 7px;
-        
+      gap: 7px;    
+    }
+    
+}
+@media(max-width: 768px) {
+    .column2{
+      gap: 7px;    
     }
     
 }
