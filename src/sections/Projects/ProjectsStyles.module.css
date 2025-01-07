@@ -52,9 +52,11 @@ h6 {
 
 .projectsContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 5px;
 
 }
 

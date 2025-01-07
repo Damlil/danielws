@@ -17,10 +17,7 @@ import '../RespGallery/imageGallery.css'
 
 export default function RespGallery() {
 
-    // const handleImageClick = (src) => {
-    //     // Open the clicked image in a new small window
-    //     window.open(src, '_blank', 'width=1200,height=1000');
-    //   };
+
 
 
     const [selectedImage, setSelectedImage] = useState(null);
@@ -44,7 +41,14 @@ export default function RespGallery() {
 
     <div className='container'>
 
+
+        <div className='titleDiv'>
+
+        <h1>Back</h1>
         <h2 className='title'>GALLERY</h2>
+        <h3>return</h3>
+
+        </div>
 
         <div className='photo-gallery'>
 
@@ -93,7 +97,7 @@ export default function RespGallery() {
 
         </div>
 
-      {/* Modal to display enlarged image */}
+  
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content">
