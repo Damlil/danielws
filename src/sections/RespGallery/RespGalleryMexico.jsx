@@ -57,6 +57,11 @@ export default function RespGallery() {
 
         </div>
 
+
+
+
+
+
         <div className='photo-gallery'>
 
 
@@ -101,32 +106,44 @@ export default function RespGallery() {
             </div>
          </div>
 
-         <div className='column2'>
-            
-            <div className='photo'>
-            <img src={pic1} alt="" onClick={() => handleImageClick(pic10)} />
-            </div>
-            <div className='photo'>
-            <img src={pic2} alt="" onClick={() => handleImageClick(pic11)} />
-            </div>
-            <div className='photo'>
-            <img src={pic3} alt="" onClick={() => handleImageClick(pic12)} />
-            </div>
-         </div>
-
 
          <div className='column'>
 
             <div className='photo'>
-            <img src={pic4} alt="" onClick={() => handleImageClick(pic13)} />
+            <img src={pic7} alt="" onClick={() => handleImageClick(pic7)} />
             </div>
             <div className='photo'>
-            <img src={pic5} alt="" onClick={() => handleImageClick(pic14)} />
+            <img src={pic8} alt="" onClick={() => handleImageClick(pic8)} />
             </div>
-            {/* <div className='photo'>
-            <img src={pic6} alt="" onClick={() => handleImageClick(pic6)} />
-            </div> */}
+            <div className='photo'>
+            <img src={pic9} alt="" onClick={() => handleImageClick(pic9)} />
+            </div>
          </div>
+         <div className='column'>
+
+            <div className='photo'>
+            <img src={pic7} alt="" onClick={() => handleImageClick(pic7)} />
+            </div>
+            <div className='photo'>
+            <img src={pic8} alt="" onClick={() => handleImageClick(pic8)} />
+            </div>
+            <div className='photo'>
+            <img src={pic9} alt="" onClick={() => handleImageClick(pic9)} />
+            </div>
+         </div>
+         <div className='column'>
+
+            <div className='photo'>
+            <img src={pic7} alt="" onClick={() => handleImageClick(pic7)} />
+            </div>
+            <div className='photo'>
+            <img src={pic8} alt="" onClick={() => handleImageClick(pic8)} />
+            </div>
+            <div className='photo'>
+            <img src={pic9} alt="" onClick={() => handleImageClick(pic9)} />
+            </div>
+         </div>
+
 
 
 

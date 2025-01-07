@@ -19,13 +19,25 @@
     margin-bottom: 2rem;
     text-align: center;
 }
-
-.photo-gallery {
-    display: flex;
-    gap: 20px;
+h1 {
+  transition: transform 200ms ease-in-out;
+}
+h1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
+.photo-gallery {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 photos per row */
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
 .column {
+
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -38,10 +50,12 @@
 }
 
 .photo img {
+    
     width: 100%;
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+    
 }
 
 @media(max-width: 768px) {
@@ -117,4 +131,6 @@
   .photo img:hover {
     transform: scale(1.03); /* Slight zoom effect on hover */
   }
+  
+
   
