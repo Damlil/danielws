@@ -5,7 +5,6 @@ import moon from '../../assets/moon.svg'
 import youtubeDark from '../../assets/youtube-dark.svg';
 import youtubeLight from '../../assets/youtube-light.svg';
 import instagramLight from '../../assets/instagram.svg';
-import CV from '../../assets/dancv.pdf';
 import { useTheme } from '../../common/ThemeContext'; 
 
 
@@ -26,14 +25,18 @@ function Hero() {
 
         <div  className={styles.colorModeContainer}  >
 
+
+            <div className='heroColorMode'>
             <img  className={styles.hero} src={heroImg} 
               alt="Profile picture of Daniel WS" />
            
+
             <img className={styles.colorMode}
             src={themeIcon}
             alt='Color Mode Icon'
             onClick={toggleTheme}
             />
+            </div>
 
          </div>
 

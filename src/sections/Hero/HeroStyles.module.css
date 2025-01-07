@@ -8,8 +8,12 @@
     min-height: 500px;
   
     .hero {
-      max-width: 220px;
+      max-width: 240px;
       border-radius: 20px;
+    }
+
+    .heroColorMode {
+      display: flex;
     }
   
     span {
@@ -25,6 +29,8 @@
         }
       }
     }
+
+   
 
  
     #flexy {
@@ -78,18 +84,19 @@
   
   .colorMode {
     position: absolute;
-    right: 0;
-    width: 25px;
+    width: 30px;
+    transition: transform 200ms ease-in-out;
+  }
+  .colorMode:hover {
+    transform: scale(1.2);
   }
   
   .colorMode:hover {
     cursor: pointer;
   }
-  
-  .description {
-    /* max-width: 24ch; */
-  }
-  
+
+
+
   .info {
     display: flex;
     flex-direction: column;
