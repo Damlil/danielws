@@ -22,15 +22,18 @@ import pic14 from '../RespGallery/photos/croatia/croatia14.jpg';
 // Array of photo imports for dynamic rendering
 const photos = [
 
-    pic3H,pic1,pic2,
+    pic3H,
+    pic1,pic2,,pic14,
 
-pic4H,pic5H,pic6H,
+pic4H,
+pic5H,
+pic6H,
 
 pic7,pic8,pic9,
 
 pic10,pic11,pic12,
 
-pic13,pic14
+pic13
 ];
 
 export default function RespGallery() {
@@ -57,7 +60,7 @@ export default function RespGallery() {
       {/* Header with navigation and title */}
       <div className="titleDiv">
         <h1 onClick={handleGoBack}>Return</h1> {/* Go back button */}
-        <h2 className="title">Coffee & Food</h2> {/* Gallery title */}
+        <h2 className="title">Croatia</h2> {/* Gallery title */}
         <h3>ICON</h3> {/* Placeholder for an icon */}
       </div>
 
