@@ -5,7 +5,7 @@ import '../RespGallery/imageGallery.css'; // Importing the stylesheet
 
 // Import all images into an array for easier use
 // import pic1 from '../RespGallery/photos/croatia/croatia1.jpg';
-import pic2 from '../RespGallery/photos/croatia/croatia2.jpg';
+// import pic2 from '../RespGallery/photos/croatia/croatia2.jpg';
 import pic3H from '../RespGallery/photos/croatia/croatia3H.jpg';
 import pic4H from '../RespGallery/photos/croatia/croatia4H.jpg';
 import pic5H from '../RespGallery/photos/croatia/croatia5H.jpg';
@@ -15,7 +15,7 @@ import pic8 from '../RespGallery/photos/croatia/croatia8.jpg';
 import pic9 from '../RespGallery/photos/croatia/croatia9.jpg';
 import pic10 from '../RespGallery/photos/croatia/croatia10.jpg';
 import pic11 from '../RespGallery/photos/croatia/croatia11.jpg';
-import pic12 from '../RespGallery/photos/croatia/croatia12.jpg';
+// import pic12 from '../RespGallery/photos/croatia/croatia12.jpg';
 import pic13 from '../RespGallery/photos/croatia/croatia13.jpg';
 import pic14 from '../RespGallery/photos/croatia/croatia14.jpg';
 
@@ -28,9 +28,8 @@ pic5H,
 pic6H,
 
 pic14,
-pic2,
 pic7,pic8,pic9,
-pic10,pic11,pic12,
+pic10,pic11,
 
 pic13
 ];
