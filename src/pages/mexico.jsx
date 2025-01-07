@@ -1,5 +1,5 @@
 
-import RespGalleryMexico from '../sections/RespGallery/RespGalleryMexico'
+import RespGalleryMexico from '../sections/RespGallery/AlbumMexico'
 
 
 

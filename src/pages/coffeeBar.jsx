@@ -1,5 +1,5 @@
 
-import RespGallery from '../sections/RespGallery/RespGallery'
+import RespGalleryCoffeFood from '../sections/RespGallery/AlbumCoffeFood'
 
 
 
@@ -8,7 +8,7 @@ import RespGallery from '../sections/RespGallery/RespGallery'
 export default function Gallery() {
   return (
 
-    <RespGallery />
+    <RespGalleryCoffeFood />
 
 
   )

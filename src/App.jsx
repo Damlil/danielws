@@ -48,7 +48,7 @@ const router = createBrowserRouter( [
   }
   ,
   {
-    path: '/korculas',
+    path: '/korcula',
     element: <Korcula />,
     errorElement: <Error />
   }
