@@ -93,6 +93,9 @@ h1:hover {
     height: 25px;
     padding-left: 10px;
     padding-top: 10px;
+    cursor: pointer;
+    border: none;
+
 
   }
   .container {
