@@ -1,15 +1,20 @@
 import { useState } from 'react'
 import React from 'react'
-import pic1 from '../RespGallery/photos/coffeeBar/coffeeBar1.jpg'
-import pic2 from '../RespGallery/photos/coffeeBar/coffeeBar2.jpg'
-import pic3 from '../RespGallery/photos/coffeeBar/coffeeBar3.jpg'
-import pic4 from '../RespGallery/photos/coffeeBar/coffeeBar4.jpg'
-import pic5 from '../RespGallery/photos/coffeeBar/coffeeBar5.jpg'
-import pic6 from '../RespGallery/photos/coffeeBar/coffeeBar6.jpg'
-import pic7 from '../RespGallery/photos/coffeeBar/coffeeBar7.jpg'
-import pic8 from '../RespGallery/photos/coffeeBar/coffeeBar8.jpg'
-import pic9 from '../RespGallery/photos/coffeeBar/coffeeBar9.jpg'
 import '../RespGallery/imageGallery.css'
+import pic1 from '../RespGallery/photos/mexico/mexico1.jpg'
+import pic2 from '../RespGallery/photos/mexico/mexico2.jpg'
+import pic3 from '../RespGallery/photos/mexico/mexico3.jpg'
+import pic4 from '../RespGallery/photos/mexico/mexico4.jpg'
+import pic5 from '../RespGallery/photos/mexico/mexico5.jpg'
+import pic6 from '../RespGallery/photos/mexico/mexico6.jpg'
+import pic7 from '../RespGallery/photos/mexico/mexico7.jpg'
+import pic8 from '../RespGallery/photos/mexico/mexico8.jpg'
+import pic9 from '../RespGallery/photos/mexico/mexico9.jpg'
+import pic10 from '../RespGallery/photos/mexico/mexico10.jpg'
+import pic11 from '../RespGallery/photos/mexico/mexico11.jpg'
+import pic12 from '../RespGallery/photos/mexico/mexico12.jpg'
+import pic13 from '../RespGallery/photos/mexico/mexico13.jpg'
+import pic14 from '../RespGallery/photos/mexico/mexico14.jpg'
 
 
 
@@ -95,9 +100,47 @@ export default function RespGallery() {
             <img src={pic9} alt="" onClick={() => handleImageClick(pic9)} />
             </div>
          </div>
+
+         <div className='column2'>
+            
+            <div className='photo'>
+            <img src={pic1} alt="" onClick={() => handleImageClick(pic10)} />
+            </div>
+            <div className='photo'>
+            <img src={pic2} alt="" onClick={() => handleImageClick(pic11)} />
+            </div>
+            <div className='photo'>
+            <img src={pic3} alt="" onClick={() => handleImageClick(pic12)} />
+            </div>
+         </div>
+
+
+         <div className='column'>
+
+            <div className='photo'>
+            <img src={pic4} alt="" onClick={() => handleImageClick(pic13)} />
+            </div>
+            <div className='photo'>
+            <img src={pic5} alt="" onClick={() => handleImageClick(pic14)} />
+            </div>
+            {/* <div className='photo'>
+            <img src={pic6} alt="" onClick={() => handleImageClick(pic6)} />
+            </div> */}
+         </div>
+
+
+
         
 
         </div>
+
+
+
+
+
+
+
+
 
   
       {selectedImage && (
