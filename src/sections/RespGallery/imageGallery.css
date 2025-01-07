@@ -55,7 +55,7 @@ h1:hover {
 
 .photo img {
   width: 100%;
-  height: auto; /* Changed to 100% for better alignment */
+  height: 100%; /* Changed to 100% for better alignment */
   border-radius: 5px;
   object-fit: cover;
   cursor: pointer;
