@@ -4,7 +4,7 @@ import React from 'react'; // Importing React
 import '../RespGallery/imageGallery.css'; // Importing the stylesheet
 
 // Import all images into an array for easier use
-import pic1 from '../RespGallery/photos/croatia/croatia1.jpg';
+// import pic1 from '../RespGallery/photos/croatia/croatia1.jpg';
 import pic2 from '../RespGallery/photos/croatia/croatia2.jpg';
 import pic3H from '../RespGallery/photos/croatia/croatia3H.jpg';
 import pic4H from '../RespGallery/photos/croatia/croatia4H.jpg';
@@ -22,15 +22,13 @@ import pic14 from '../RespGallery/photos/croatia/croatia14.jpg';
 // Array of photo imports for dynamic rendering
 const photos = [
 
-    pic3H,
-    pic1,pic2,,pic14,
-
+pic3H,
 pic4H,
 pic5H,
 pic6H,
 
+pic2,pic14,
 pic7,pic8,pic9,
-
 pic10,pic11,pic12,
 
 pic13
