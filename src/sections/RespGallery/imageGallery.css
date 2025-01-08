@@ -58,6 +58,7 @@ h1:hover {
 }
 
 .photo.fade-in {
+  grid-column: span 1;
   opacity: 1; /* Fully visible */
   transform: translateY(0); /* Moves to its original position */
 }
