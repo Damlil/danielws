@@ -88,15 +88,6 @@ h1:hover {
     padding-right: 10px;
     border-bottom: none;
   }
-  .photo-gallery {
-    grid-template-columns:  repeat(2, 1fr);
-  }
-  .photo.fade-in {
-    grid-column: span 1;
-  }
-  .photo.horizontal-image {
-    grid-column: span 4;
-  }
 
   .previous {
     width: 25px;
