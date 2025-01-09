@@ -5,7 +5,7 @@ import Camera from './assets/photo-camera.svg'
 import Previous from './assets/previous.svg'
 
 // Import all images into an array for easier use
-import big from '../RespGallery/photos/mexico/mex1bigshot.jpg';
+import pic1 from '../RespGallery/photos/mexico/mexico1bigshot.jpg';
 import pic2 from '../RespGallery/photos/mexico/mexico2bigshot.jpg';
 import pic3 from '../RespGallery/photos/mexico/mexico3.jpg';
 import pic4 from '../RespGallery/photos/mexico/mexico4.jpg';
@@ -22,7 +22,7 @@ import pic14 from '../RespGallery/photos/mexico/mexico14.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic2, pic3, pic4,   pic5,big, pic6, 
+  pic2, pic3, pic4,   pic5,pic1, pic6, 
   pic7, pic8, pic9, pic10, pic11, pic12,
   pic13, pic14,
 ];export default function RespGallery() {
