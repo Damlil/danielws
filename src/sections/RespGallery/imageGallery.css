@@ -58,7 +58,6 @@ h1:hover {
 }
 
 .photo.fade-in {
-  /* grid-column: span 1; */
   opacity: 1; /* Fully visible */
   transform: translateY(0); /* Moves to its original position */
 }
@@ -69,7 +68,7 @@ h1:hover {
   justify-content: space-between;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .photo.horizontal-image {
