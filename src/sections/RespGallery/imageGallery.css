@@ -58,7 +58,7 @@ h1:hover {
 }
 
 .photo.fade-in {
-  grid-column: span 1;
+  /* grid-column: span 1; */
   opacity: 1; /* Fully visible */
   transform: translateY(0); /* Moves to its original position */
 }
@@ -74,6 +74,10 @@ h1:hover {
 
 .photo.horizontal-image {
   grid-column: span 3;
+}
+
+.bigshot-image {
+ grid-column: span 3;
 }
 
 @media(max-width: 768px) {
