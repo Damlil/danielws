@@ -27,7 +27,6 @@ const photos = [
   pic10, pic11, pic12,
   pic13, pic14, pic15,
 ];
-
 export default function RespGallery() {
   // Function to navigate back to the previous page
   const handleGoBack = () => {
@@ -90,13 +89,14 @@ export default function RespGallery() {
       <div className="photo-gallery">
         {/* Loop through the photos array and render each image */}
         {photos.map((photo, index) => {
-          // Check if the image filename contains 'H' to identify horizontal images
+          // Check if the image filename contains 'horizontal' or 'bigshot'
           const isHorizontal = photo.includes('horizontal');
+          const isBigshot = photo.includes('bigshot');
           const photoId = `photo-${index}`; // Unique ID for each photo
 
           return (
             <div
-              className={`photo ${isHorizontal ? 'horizontal-image' : ''} ${inView.includes(photoId) ? 'fade-in' : ''}`}
+              className={`photo ${isHorizontal ? 'horizontal-image' : ''} ${isBigshot ? 'bigshot-image' : ''} ${inView.includes(photoId) ? 'fade-in' : ''}`}
               key={index}
               id={photoId} // Set the unique id
             >
@@ -124,5 +124,3 @@ export default function RespGallery() {
     </div>
   );
 }
-
-

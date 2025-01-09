@@ -5,7 +5,7 @@ import Camera from './assets/photo-camera.svg'
 import Previous from './assets/previous.svg'
 
 // Import all images into an array for easier use
-import pic1 from '../RespGallery/photos/mexico/mexico1.jpg';
+import pic1 from '../RespGallery/photos/mexico/mexico1bigshot.jpg';
 import pic2 from '../RespGallery/photos/mexico/mexico2.jpg';
 import pic3 from '../RespGallery/photos/mexico/mexico3.jpg';
 import pic4 from '../RespGallery/photos/mexico/mexico4.jpg';
@@ -25,8 +25,7 @@ const photos = [
   pic1, pic2, pic3, pic4, pic5, pic6,
   pic7, pic8, pic9, pic10, pic11, pic12,
   pic13, pic14,
-];
-export default function RespGallery() {
+];export default function RespGallery() {
   // Function to navigate back to the previous page
   const handleGoBack = () => {
     window.history.back();
@@ -88,13 +87,14 @@ export default function RespGallery() {
       <div className="photo-gallery">
         {/* Loop through the photos array and render each image */}
         {photos.map((photo, index) => {
-          // Check if the image filename contains 'H' to identify horizontal images
+          // Check if the image filename contains 'horizontal' or 'bigshot'
           const isHorizontal = photo.includes('horizontal');
+          const isBigshot = photo.includes('bigshot');
           const photoId = `photo-${index}`; // Unique ID for each photo
 
           return (
             <div
-              className={`photo ${isHorizontal ? 'horizontal-image' : ''} ${inView.includes(photoId) ? 'fade-in' : ''}`}
+              className={`photo ${isHorizontal ? 'horizontal-image' : ''} ${isBigshot ? 'bigshot-image' : ''} ${inView.includes(photoId) ? 'fade-in' : ''}`}
               key={index}
               id={photoId} // Set the unique id
             >
@@ -122,4 +122,3 @@ export default function RespGallery() {
     </div>
   );
 }
-
