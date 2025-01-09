@@ -5,8 +5,8 @@ import Camera from './assets/photo-camera.svg'
 import Previous from './assets/previous.svg'
 
 // Import all images into an array for easier use
-import pic1 from '../RespGallery/photos/mexico/mexico1bigshot.jpg';
-import pic2 from '../RespGallery/photos/mexico/mexico2.jpg';
+import pic1 from '../RespGallery/photos/mexico/mexico1.jpg';
+import pic2 from '../RespGallery/photos/mexico/mexico2bigshot.jpg';
 import pic3 from '../RespGallery/photos/mexico/mexico3.jpg';
 import pic4 from '../RespGallery/photos/mexico/mexico4.jpg';
 import pic5 from '../RespGallery/photos/mexico/mexico5.jpg';
