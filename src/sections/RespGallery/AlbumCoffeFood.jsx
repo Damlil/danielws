@@ -100,7 +100,7 @@ export default function RespGallery() {
         {/* Loop through the photos array and render each image */}
         {photos.map((photo, index) => {
           // Check if the image filename contains 'H' to identify horizontal images
-          const isHorizontal = photo.includes('H');
+          const isHorizontal = photo.includes('horizontal');
           const photoId = `photo-${index}`; // Unique ID for each photo
 
           return (
