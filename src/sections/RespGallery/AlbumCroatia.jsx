@@ -7,7 +7,7 @@ import Previous from './assets/previous.svg'
 import pic3H from '../RespGallery/photos/croatia/croatia3H.jpg';
 import pic4H from '../RespGallery/photos/croatia/croatia4H.jpg';
 import pic5H from '../RespGallery/photos/croatia/croatia5H.jpg';
-import pic6H from '../RespGallery/photos/croatia/croatia6H.jpg';
+import pic6h from '../RespGallery/photos/croatia/croatia6horizontal.jpg';
 import pic7 from '../RespGallery/photos/croatia/croatia7.jpg';
 import pic8 from '../RespGallery/photos/croatia/croatia8.jpg';
 import pic9 from '../RespGallery/photos/croatia/croatia9.jpg';
@@ -21,7 +21,7 @@ const photos = [
   pic3H,
   pic4H,
   pic5H,
-  pic6H,
+  pic6h,
   pic14,
   pic7, pic8, pic9,
   pic10, pic11,
@@ -90,7 +90,7 @@ export default function RespGallery() {
         {/* Loop through the photos array and render each image */}
         {photos.map((photo, index) => {
           // Check if the image filename contains 'H' to identify horizontal images
-          const isHorizontal = photo.includes('H');
+          const isHorizontal = photo.includes('horizontal');
           const photoId = `photo-${index}`; // Unique ID for each photo
 
           return (
