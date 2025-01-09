@@ -64,7 +64,7 @@ h1:hover {
 
 .photo-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@ h1:hover {
 }
 
 .photo.horizontal-image {
-  grid-column: span 3;
+  grid-column: span 4;
 }
 
 .bigshot-image {

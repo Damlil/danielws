@@ -31,7 +31,7 @@ import pic21 from '../RespGallery/photos/coffeeBar/coffeeBar21.jpg'
 const photos = [
   pic6,  pic2, pic3,
     pic4, pic5, 
-    pic7, pic8, pic9,
+    pic7,  pic9,pic8,
      pic11,pic12,pic10,
     pic13,pic14,pic15,
     pic16,pic17,pic18,

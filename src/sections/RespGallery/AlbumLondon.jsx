@@ -11,7 +11,7 @@ import pic3 from '../RespGallery/photos/london/london3.jpg';
 import pic4 from '../RespGallery/photos/london/london4.jpg';
 import pic5 from '../RespGallery/photos/london/london5bigshot.jpg';
 import pic6 from '../RespGallery/photos/london/london6.jpg';
-// import pic7 from '../RespGallery/photos/london/london7.jpg';
+import pic7 from '../RespGallery/photos/london/london7.jpg';
 import pic8 from '../RespGallery/photos/london/london8.jpg';
 import pic9 from '../RespGallery/photos/london/london9.jpg';
 // import pic10 from '../RespGallery/photos/london/london10.jpg';
@@ -23,7 +23,7 @@ import pic15 from '../RespGallery/photos/london/london15.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic1, pic2, pic3,pic5,pic4, pic6,
+  pic1, pic2, pic3, pic7,pic5,pic4, pic6,
  pic8, pic9, pic11, pic12,
   pic13, pic14, pic15
 ];
