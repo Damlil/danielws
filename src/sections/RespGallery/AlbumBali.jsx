@@ -10,7 +10,7 @@ import pic4 from '../RespGallery/photos/indonesia/bali4.jpg';
 import pic5 from '../RespGallery/photos/indonesia/bali5.jpg';
 import pic6 from '../RespGallery/photos/indonesia/bali6.jpg';
 
-import pic8H from '../RespGallery/photos/indonesia/bali8H.jpg';
+import pic8H from '../RespGallery/photos/indonesia/bali8horizontal.jpg';
 import pic9 from '../RespGallery/photos/indonesia/bali9.jpg';
 import pic10 from '../RespGallery/photos/indonesia/bali10.jpg';
 import pic11 from '../RespGallery/photos/indonesia/bali11.jpg';
@@ -91,7 +91,7 @@ export default function RespGallery() {
         {/* Loop through the photos array and render each image */}
         {photos.map((photo, index) => {
           // Check if the image filename contains 'H' to identify horizontal images
-          const isHorizontal = photo.includes('H');
+          const isHorizontal = photo.includes('horizontal');
           const photoId = `photo-${index}`; // Unique ID for each photo
 
           return (
