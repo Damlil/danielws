@@ -4,9 +4,9 @@ import '../RespGallery/imageGallery.css'; // Importing the stylesheet
 import Camera from './assets/photo-camera.svg'
 import Previous from './assets/previous.svg'
 
-import pic3H from '../RespGallery/photos/croatia/croatia3H.jpg';
-import pic4H from '../RespGallery/photos/croatia/croatia4H.jpg';
-import pic5H from '../RespGallery/photos/croatia/croatia5H.jpg';
+import pic3H from '../RespGallery/photos/croatia/croatia3horizontal.jpg';
+import pic4H from '../RespGallery/photos/croatia/croatia4horizontal.jpg';
+import pic5H from '../RespGallery/photos/croatia/croatia5horizontal.jpg';
 import pic6h from '../RespGallery/photos/croatia/croatia6horizontal.jpg';
 import pic7 from '../RespGallery/photos/croatia/croatia7.jpg';
 import pic8 from '../RespGallery/photos/croatia/croatia8.jpg';
