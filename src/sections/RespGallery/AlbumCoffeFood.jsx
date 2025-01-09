@@ -12,9 +12,9 @@ import pic4 from '../RespGallery/photos/coffeeBar/coffeeBar4.jpg'
 import pic5 from '../RespGallery/photos/coffeeBar/coffeeBar5.jpg'
 import pic6 from '../RespGallery/photos/coffeeBar/coffeeBar6bigshot.jpg'
 import pic7 from '../RespGallery/photos/coffeeBar/coffeeBar7.jpg'
-import pic8 from '../RespGallery/photos/coffeeBar/coffeeBar8.jpg'
+import pic8 from '../RespGallery/photos/coffeeBar/coffeeBar8bigshot.jpg'
 import pic9 from '../RespGallery/photos/coffeeBar/coffeeBar9.jpg'
-import pic10 from '../RespGallery/photos/coffeeBar/coffeeBar10.jpg'
+import pic10 from '../RespGallery/photos/coffeeBar/coffeeBar10bigshot.jpg'
 import pic11 from '../RespGallery/photos/coffeeBar/coffeeBar11.jpg'
 import pic12 from '../RespGallery/photos/coffeeBar/coffeeBar12.jpg'
 import pic13 from '../RespGallery/photos/coffeeBar/coffeeBar13.jpg'
@@ -29,10 +29,10 @@ import pic21 from '../RespGallery/photos/coffeeBar/coffeeBar21.jpg'
 
 // Array of photo imports for dynamic rendering
 const photos = [
-     pic2, pic3,
-    pic4, pic6,pic5, 
+  pic6,  pic2, pic3,
+    pic4, pic5, 
     pic7, pic8, pic9,
-    pic10, pic11,pic12,
+     pic11,pic12,pic10,
     pic13,pic14,pic15,
     pic16,pic17,pic18,
     pic19,pic20,pic21,pic1];
