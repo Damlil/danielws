@@ -21,11 +21,11 @@ import pic15 from '../RespGallery/photos/indonesia/bali15.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic1, pic2, pic3,
+  pic1, pic2, pic3,pic15,
   pic8H, pic4,
   pic6, pic5,pic9,
   pic10, pic11, pic12,
-  pic13, pic14, pic15,
+  pic13, pic14, 
 ];
 export default function RespGallery() {
   // Function to navigate back to the previous page
