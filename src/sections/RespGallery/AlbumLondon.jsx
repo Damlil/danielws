@@ -5,7 +5,7 @@ import Camera from './assets/photo-camera.svg';
 import Previous from './assets/previous.svg';
 
 // Import all images into an array for easier use
-import pic1 from '../RespGallery/photos/london/london1bigshot.jpg';
+import ben from '../RespGallery/photos/london/benbigshot.jpg';
 import pic2 from '../RespGallery/photos/london/london2.jpg';
 import pic3 from '../RespGallery/photos/london/london3.jpg';
 import pic4 from '../RespGallery/photos/london/london4.jpg';
@@ -23,7 +23,7 @@ import pic15 from '../RespGallery/photos/london/london15.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic1, pic2, pic3, pic7, ,pic4,pic5, pic6,
+  ben, pic2, pic3, pic7, ,pic4,pic5, pic6,
  pic8, pic9, pic11, pic12,pic10,
   pic13, pic14, pic15
 ];
