@@ -43,11 +43,11 @@
     margin-top: 0.5rem;
     color: var(--text-color);
     font-family: 'Roboto Mono', monospace;
-    margin-bottom: 0;
+  
 
   }
   h5 {
-   font-size: 15;
+    margin-top: 0;
   }
 
   h2,h3, p {
@@ -74,6 +74,7 @@
 
   .sectionTitle {
     margin-bottom: 30px;
+    margin-top: -40px;
   }
 
   .hover {
