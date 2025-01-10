@@ -28,7 +28,7 @@
 .previous {
   width: 44px;
   height: 44px;
-  fill: rgb(255, 25, 25); /* Change to your desired color */
+  fill: rgb(255, 25, 25); 
   cursor: pointer;
   border: 3px solid rgb(255, 222, 10);
   border-radius: 30px;
@@ -83,7 +83,7 @@ h1:hover {
 
 @media(max-width: 768px) {
   .photo-gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
   .camera {
@@ -157,4 +157,6 @@ h1:hover {
 .modal:hover {
   cursor: pointer;
 }
+
+
 
