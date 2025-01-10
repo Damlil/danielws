@@ -22,9 +22,9 @@ import pic14 from '../RespGallery/photos/mexico/mexico14.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic2, pic3, pic4,   pic5,pic1, pic6, 
-  pic7, pic8, pic9, pic10, pic11, pic12,
-  pic13, pic14,
+pic2,,pic14, pic3, pic4,   pic5,pic1, pic6, 
+pic7, pic8, pic9, pic10, pic11, pic12,
+pic13
 ];export default function RespGallery() {
   // Function to navigate back to the previous page
   const handleGoBack = () => {

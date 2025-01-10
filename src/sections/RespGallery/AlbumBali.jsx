@@ -11,11 +11,11 @@ import pic5 from '../RespGallery/photos/indonesia/bali5.jpg';
 import pic6 from '../RespGallery/photos/indonesia/bali6.jpg';
 
 import pic8H from '../RespGallery/photos/indonesia/bali8horizontal.jpg';
-// import pic9 from '../RespGallery/photos/indonesia/bali9.jpg';
+import pic9 from '../RespGallery/photos/indonesia/bali9.jpg';
 import pic10 from '../RespGallery/photos/indonesia/bali10.jpg';
 import pic11 from '../RespGallery/photos/indonesia/bali11.jpg';
 import pic12 from '../RespGallery/photos/indonesia/bali12.jpg';
-// import pic13 from '../RespGallery/photos/indonesia/bali13.jpg';
+import pic13 from '../RespGallery/photos/indonesia/bali13.jpg';
 import pic14 from '../RespGallery/photos/indonesia/bali14.jpg';
 
 
@@ -28,11 +28,11 @@ import pic14 from '../RespGallery/photos/indonesia/bali14.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
-  pic1, pic2, pic3,
+  pic1, pic2, pic3,pic9,
   pic8H, pic4,
   pic6, pic5,
   pic10, pic11, pic12,
- pic14, 
+ pic14, pic13
 ];
 export default function RespGallery() {
   // Function to navigate back to the previous page

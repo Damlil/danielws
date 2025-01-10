@@ -26,6 +26,8 @@ import pic18 from '../RespGallery/photos/coffeeBar/coffeeBar18.jpg'
 import pic19 from '../RespGallery/photos/coffeeBar/coffeeBar19.jpg'
 import pic20 from '../RespGallery/photos/coffeeBar/coffeeBar20.jpg'
 import pic21 from '../RespGallery/photos/coffeeBar/coffeeBar21.jpg'
+import pic22 from '../RespGallery/photos/coffeeBar/coffeeBar22.jpg'
+import pic23 from '../RespGallery/photos/coffeeBar/coffeeBar23.jpg'
 
 // Array of photo imports for dynamic rendering
 const photos = [
@@ -35,7 +37,7 @@ const photos = [
      pic11,pic12,pic10,
     pic13,pic14,pic15,
     pic16,pic17,pic18,
-    pic19,pic20,pic21,pic1];
+    pic19,pic20,pic21,pic1,pic22,pic23];
     export default function RespGallery() {
       // Function to navigate back to the previous page
       const handleGoBack = () => {

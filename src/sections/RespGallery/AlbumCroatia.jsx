@@ -8,24 +8,27 @@ import pic3H from '../RespGallery/photos/croatia/croatia3horizontal.jpg';
 import pic4H from '../RespGallery/photos/croatia/croatia4horizontal.jpg';
 import pic5H from '../RespGallery/photos/croatia/croatia5horizontal.jpg';
 import pic6h from '../RespGallery/photos/croatia/croatia6horizontal.jpg';
-import pic7 from '../RespGallery/photos/croatia/croatia7.jpg';
-import pic8 from '../RespGallery/photos/croatia/croatia8.jpg';
+import pic7 from '../RespGallery/photos/croatia/croatia7bigshot.jpg';
+import pic8 from '../RespGallery/photos/croatia/croatia8bigshot.jpg';
 import pic9 from '../RespGallery/photos/croatia/croatia9.jpg';
 import pic10 from '../RespGallery/photos/croatia/croatia10.jpg';
 import pic11 from '../RespGallery/photos/croatia/croatia11.jpg';
+import pic12 from '../RespGallery/photos/croatia/croatia12bigshot.jpg';
 import pic13 from '../RespGallery/photos/croatia/croatia13.jpg';
-import pic14 from '../RespGallery/photos/croatia/croatia14.jpg';
+import pic14 from '../RespGallery/photos/croatia/croatia14bigshot.jpg';
 
 // Array of photo imports for dynamic rendering
 const photos = [
   pic3H,
+  pic12,pic8,
   pic4H,
+  pic9,
+  pic10, pic11,
+  pic13,
   pic5H,
   pic6h,
   pic14,
-  pic7, pic8, pic9,
-  pic10, pic11,
-  pic13
+  pic7, 
 ];export default function RespGallery() {
   // Function to navigate back to the previous page
   const handleGoBack = () => {
