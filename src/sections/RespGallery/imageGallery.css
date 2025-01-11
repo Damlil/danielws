@@ -3,6 +3,7 @@
   margin: 0;
 }
 
+
 .container {
   max-width: 1224px;
   width: 90%;
@@ -74,8 +75,14 @@ h1:hover {
 }
 
 .photo.horizontal-image {
-  grid-column: span 4;
+  grid-column: span 2;
 }
+
+.photo.ultrawide-image {
+  grid-column: span 4; /* Example: spans 3 columns */
+
+}
+
 
 .bigshot-image {
 

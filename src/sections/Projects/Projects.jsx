@@ -4,6 +4,7 @@ import mexico from '../../assets/photos/mexico/mexico1.jpg'
 import bali from '../../assets/photos/indonesia/bali1.jpg'
 import london from '../../assets/photos/london/london1.jpg'
 import korcula from '../../assets/photos/croatia/croatia1.jpg'
+import wedding from '../RespGallery/photos/wedding/wedding12bigshot.jpg'
 import { ArrowBigDown} from 'lucide-react'
 
 import ProjectCard from '../../common/ProjectCard';
@@ -57,6 +58,12 @@ function Projects() {
             h6='Personal'
             // p='Best of Lodon 2024'
             link ='korcula'
+            />
+            <ProjectCard src={wedding} 
+            h4='Wedding' 
+            h6='Personal'
+            // p='Best of Lodon 2024'
+            link ='wedding'
             />
 
         </div>
